@@ -1,0 +1,7 @@
+## State files 
+*.tfstate
+*.tfstate.backup
+
+## Terraform init will create these files, no need to include
+.terraform.lock.hcl
+.terraform/
